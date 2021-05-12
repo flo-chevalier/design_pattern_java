@@ -7,7 +7,7 @@ public class Batiment {
   private static Batiment instance;
 
   private Batiment() {
-    // le constructeur est privé
+    // le constructeur est privÃ©
   }
 
   public static Batiment getInstance() {

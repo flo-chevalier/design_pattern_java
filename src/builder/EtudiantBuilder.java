@@ -4,7 +4,7 @@ package builder;
  * Design Pattern Builder permettant de construire un {@link Etudiant}.
  */
 public class EtudiantBuilder {
-    private Etudiant etudiant;
+    private final Etudiant etudiant;
 
     public EtudiantBuilder() {
         this.etudiant = new Etudiant();
