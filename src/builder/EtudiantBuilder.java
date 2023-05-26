@@ -6,7 +6,7 @@ package builder;
 public class EtudiantBuilder {
     private final Etudiant etudiant;
 
-    public EtudiantBuilder() {
+    private EtudiantBuilder() {
         this.etudiant = new Etudiant();
     }
 

@@ -13,12 +13,15 @@ public class FabriqueAnimal {
    */
   public static Animal creer(final String typeAnimal) throws Exception {
     switch (typeAnimal) {
-      case CHAT:
+      case CHAT -> {
         return new Chat();
-      case CHIEN:
+      }
+      case CHIEN -> {
         return new Chien();
-      case SERPENT:
+      }
+      case SERPENT -> {
         return new Serpent();
+      }
     }
 
     throw new Exception("Impossible de créer un " + typeAnimal);

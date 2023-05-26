@@ -6,7 +6,7 @@ package strategy;
 public class CalculItineraireVoiture {
 
     public Itineraire executer(final String depart, final String arrivee) {
-        System.out.println("Je calcul l'itinéraire pour une voiture, entre " + depart + " et " + arrivee);
+        System.out.println("Je calcule l'itinéraire pour une voiture, entre " + depart + " et " + arrivee);
         return new Itineraire(0);
     }
 }
